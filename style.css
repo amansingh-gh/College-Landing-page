@@ -16,7 +16,7 @@ nav{
     display:flex;
     padding: 2% 4%;
     align-items: center;
-    justify-content: space-between;
+    justify-content:end;
     
 }
 nav img{
@@ -25,18 +25,19 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 0px 18px;
+    padding: 0px 15px;
 
 }
 .nav-links ul li a{
     text-decoration: none;
     color: white;
     font-size: 17px;
+    font-weight: 200;
 
 }
 .nav-links ul li a:hover{
     color: brown;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 .text-box {
     width: 90%;
@@ -68,10 +69,12 @@ nav img{
 }
 
 .hero-btn:hover{
-    border: 5px solid green;
+    border: 5px solid light-blue;
     transition: 0.5s;
     cursor: pointer;
     background: transparent;
+    background-color: black;
+
 }
 
 @media (max-width:700px) {
